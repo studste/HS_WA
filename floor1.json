@@ -81,7 +81,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Feiern"
+                 "value":"test"
                 }, 
                 {
                  "name":"playAudio",
