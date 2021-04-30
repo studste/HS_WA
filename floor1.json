@@ -64,14 +64,14 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"TriggerMessage",
+                 "type":"string",
+                 "value":"Test d'envoi d'un message"
+                }, 
+                {
                  "name":"audioLoop",
                  "type":"bool",
                  "value":true
-                }, 
-                {
-                 "name":"exitTriggerMessage",
-                 "type":"string",
-                 "value":"Test d'envoi d'un message"
                 }, 
                 {
                  "name":"playAudio",
