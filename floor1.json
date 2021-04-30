@@ -81,12 +81,12 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Sie betreten gerade die PARTY ZONEEEEEEE!!!!EIN!!!EINS!!!EINS"
+                 "value":"Sie befinden sich in der Party Zone"
                 }, 
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/watch?v=VgH8yziW8Fk"
+                 "value":"https:\/\/opengameart.org\/sites\/default\/files\/8_bit_peractorum_lofi_0.mp3"
                 }, 
                 {
                  "name":"silent",
