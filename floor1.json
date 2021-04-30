@@ -74,11 +74,6 @@
                  "value":"{\"DEFAULT_BACKGROUND\":\"#77ee77\"}"
                 }, 
                 {
-                 "name":"jitsiRoom",
-                 "type":"string",
-                 "value":"conference"
-                }, 
-                {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
@@ -86,7 +81,17 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"Test trigger message"
+                 "value":"Sie betreten gerade die PARTY ZONEEEEEEE!!!!EIN!!!EINS!!!EINS"
+                }, 
+                {
+                 "name":"playAudio",
+                 "type":"string",
+                 "value":"https:\/\/opengameart.org\/sites\/default\/files\/8_bit_peractorum_lofi_0.mp3"
+                }, 
+                {
+                 "name":"silent",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
