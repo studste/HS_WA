@@ -62,6 +62,22 @@
          "id":6,
          "name":"music_room",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"hs_test_room"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"jitsiTriggerMessage",
+                 "type":"string",
+                 "value":"Test trigger message"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":26,
