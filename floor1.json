@@ -86,7 +86,7 @@
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
-                 "value":"test"
+                 "value":"'test'"
                 }, 
                 {
                  "name":"playAudio",
