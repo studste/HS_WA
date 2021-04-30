@@ -69,24 +69,9 @@
                  "value":true
                 }, 
                 {
-                 "name":"jitsiConfig",
+                 "name":"exitTriggerMessage",
                  "type":"string",
-                 "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true } "
-                }, 
-                {
-                 "name":"jitsiInterfaceConfig",
-                 "type":"string",
-                 "value":"{\"DEFAULT_BACKGROUND\":\"#77ee77\"}"
-                }, 
-                {
-                 "name":"jitsiTrigger",
-                 "type":"string",
-                 "value":"onaction"
-                }, 
-                {
-                 "name":"jitsiTriggerMessage",
-                 "type":"string",
-                 "value":"'test'"
+                 "value":"Test d'envoi d'un message"
                 }, 
                 {
                  "name":"playAudio",
