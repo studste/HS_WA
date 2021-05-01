@@ -118,9 +118,14 @@
                  "name":"silent",
                  "type":"bool",
                  "value":true
+                }, 
+                {
+                 "name":"visible",
+                 "type":"bool",
+                 "value":false
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":26,
          "x":0,
          "y":0
