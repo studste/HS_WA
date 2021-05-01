@@ -64,11 +64,6 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"TriggerMessage",
-                 "type":"string",
-                 "value":"Test d'envoi d'un message"
-                }, 
-                {
                  "name":"audioLoop",
                  "type":"bool",
                  "value":true
@@ -82,6 +77,11 @@
                  "name":"silent",
                  "type":"bool",
                  "value":true
+                }, 
+                {
+                 "name":"startTriggerMessage",
+                 "type":"string",
+                 "value":"Wassup"
                 }],
          "type":"tilelayer",
          "visible":true,
