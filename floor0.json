@@ -365,6 +365,11 @@
                  "id":67,
                  "properties":[
                         {
+                         "name":"exitTriggerMessage",
+                         "type":"string",
+                         "value":"Test d'envoi d'un message"
+                        }, 
+                        {
                          "name":"jitsiConfig",
                          "type":"string",
                          "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true } "
