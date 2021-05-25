@@ -88,7 +88,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/bbb-26-206.bbb.rlp.net\/"
+                 "value":"https:\/\/bbb-26-206.bbb.rlp.net\/html5client\/join?sessionToken=lc64alohpbybrrk4"
                 }, 
                 {
                  "name":"openWebsitePolicy",
