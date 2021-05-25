@@ -88,7 +88,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/scalelite.rlp.net\/bigbluebutton\/api\/join?meetingID=f462aed4-7fa3-4da6-bb78-cad3eb803341"
+                 "value":"https:\/\/bbb-26-206.bbb.rlp.net\/"
                 }, 
                 {
                  "name":"openWebsitePolicy",
