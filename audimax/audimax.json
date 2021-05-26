@@ -88,7 +88,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/bbb-26-206.bbb.rlp.net\/"
+                 "value":""
                 }, 
                 {
                  "name":"openWebsitePolicy",
