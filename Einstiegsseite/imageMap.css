@@ -1,0 +1,33 @@
+
+h1{
+    color: #007466; 
+    font-size: 1rem; 
+    font-weight: bold;
+    text-align: center;
+  }
+  h2 {
+    text-align:left;
+    color: #007466;
+    padding-left: 1.5rem;
+  }
+
+.flex-container-header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right,#1d6a7f,#82b432 0,#1e9650 17%,#0a5a64 45%,#32828c 78%,#28b4dc 100%);
+    background-repeat: no-repeat;
+  }
+
+  .flex-item-header {
+    width:100%;
+    margin: 10px;
+  }
+
+  #header {
+    text-align: center;
+    width: 80%;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+    color:azure
+    }

@@ -1,0 +1,245 @@
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Workadventure Kaiserslautern</title>
+		<link rel="stylesheet" type="text/css" href="faqs.css">
+		<link rel ="stylesheet" href="leaflet/leaflet.css">
+		<script src="leaflet/leaflet.js">
+		</script>
+</head>
+
+<body>
+<div  class="header-line" >
+		<div class="flex-container-header"> 
+			
+
+			<div class="flex-item-header" >
+				<p id="header">
+					Welcome to Adventure campus of Kaiserslautern university!
+				</p>
+			</div>
+						
+			<div id="flag">
+				<a href="../index.html" >
+				<img src="DE.jpg" style="width: 30px; height: 22px;">
+				</a>
+			</div>
+		</div>
+</div>
+<div class="flex-container">
+	<div id="a">
+		<p style = "font-size: 1.2rem;">
+			This game was developed by students of the "Agile software development" course in the "Information Management" program in the Corona-year 2021. 
+			It gives us a little bit of "Campus feeling", allows us to hold online events, as well as to meet friends again - no matter where they are now.
+
+			<br>
+			<br>
+			<span>Development: Stevan Dejanovic, Anastasiia Gebhard, John Bui, Melike Schlachter, Rebecca Rein, Jörn Montag, Sebastian Wnuk, Dennis Pyka, Patrick Meppe, Matthias Bohnenberger, Khaled Chick Khattab, Ossman Shekhmos, Seyana Sivanantham, Dennis Semke und Youssef Chahmi </span>
+			<br>
+			<span>Professor: Prof. Dipl.-Ing. Klaus Knopper und Prof. Adrian Müller</span>
+		</p>
+	</div>
+</div>
+<div class="body-background-campus">
+	<div id="header-body">
+		<h1>Here you get to our virtual campuses</h1>
+	</div>
+
+<div class="flex-container">
+<div >
+	
+	<div class="flex-container-body" >
+		
+			<div class="flex-item-body">
+			
+				<div class="schatzkarte">
+					<h3>Campus Zweibruecken</h3>
+						<p>Our Campus in Zweibruecken provides excellent conditions for studying business administration, computer science & microsystems technology.  </p>
+						<img class="imageCampus"src="./Zweibruecken.png" alt="Campus Kaiserslautern">	
+						<button class="btnMap"><a href="./imageMap.html">Zum Campus Zweibrücken</a></button>
+					</div>
+			</div>
+		<div class="flex-item-body">
+	<div >
+		<h3>Campus Kaiserslautern</h3>
+			<p>Our Campus in Kaiserslautern provides excellent conditions for studying construction & applied engineering sciences.</p>
+			<img class="imageCampus"src="./Kaiserslautern.jpg" alt="Campus Kaiserslautern">		
+			<button class="btnMap"><a href="https://adventure.hs-kl.de/campus.kl.html">Zum Campus Kaiserslautern</a></button>
+				</div>
+	</div>
+		<div class="flex-item-body">  
+				<h3>Campus Pirmasens</h3> 
+					<p>Our Campus in Pirmasens provides excellent conditions for studying applied logistics- and polymer sciences.</p>
+					<img class="imageCampus"src="./Pirmasens.jpg" alt="Campus Kaiserslautern">			
+				<button class="btnMap">Campus Pirmasens</button>
+		</div>
+	
+	</div>
+</div>
+</div>
+</div>
+
+<div class="body-background-color">
+	<div id="header-body">
+		<h1>WorkAdventure manual:</h1>
+	</div>
+
+	<div class="flex-container-body">
+		<div class="flex-item-body">
+		<div class="flex-item-body">
+			<h2>How to get in?</h2>
+				<ol>
+				At the start the browser asks you to enter your name (up to eight characters are allowed). 
+				</ol>
+				<img id = "Name" src="Name.png">
+				<ol>
+				After confirmation with Continue, an avatar can be chosen or created.
+				</ol>
+				<img id = "Avatar" src="Avatar.png">
+				<ol>
+				You are also asked to enable your camera and microphone – 
+				this is required if you want to communicate with other visitors. It is also possible to enable it later in the game.
+				</ol>
+				<img id = "Kam_Mikro" src="Freigabe.png">
+				<ol>
+				Your settings will be saved within the browser.
+				For getting a better overview, you can change the browser zoom. 
+				Using the menu on the upper left, the avatar, camera and microphone settings can be changed afterwards. 
+				If you meet another visitor, the two of you start a conversation.
+				</ol>
+				<ol style = "font-size: 1.2rem;">
+				And now: Have fun while exploring!
+				</ol>
+		</div>
+		</div>
+		
+
+
+		<div class="flex-item-body">
+			<div class="flex-item-body">
+				<h2>Functions</h2>
+				<ul>
+				<li style="margin-bottom:0.3em;">
+					<b>Zoom in/out:</b> 
+					<span class="key">Strg</span> 
+					<span class="key">+</span> , 
+					<span class="key">Strg</span> 
+					<span class="key">-</span>
+				</li>
+				<li style="margin-bottom:0.3em;">
+					<b>Move:</b> Arrow keys:
+					<span class="key">→</span> , 
+					<span class="key">←</span> , 
+					<span class="key">↑</span> , 
+					<span class="key">↓</span> bzw. 
+					<span class="key">W</span> , 
+					<span class="key">A</span> , 
+					<span class="key">S</span> , 
+					<span class="key">D</span> 
+				</li>
+				<li style="margin-bottom:0.3em;"><b>Run:</b> 
+					<span class="key">⇧ Shift</span> + arrow bzw.</span>
+					<span class="key">⇧ Shift</span> +  
+					<span class="key">W</span> , 
+					<span class="key">A</span> , 
+					<span class="key">S</span> , 
+					<span class="key">D</span><br> 
+					Notice: Conversations will be interrupted while running, 
+					not while walking - as long as persons are together within one circle.
+				</li>
+				<li style="margin-bottom:0.3em;">
+					<b>Communicate:</b> Automatically when meeting persons 
+					(a circle is drawn around the group) and in conference tools.
+				</li>
+				<li>
+					<b>Chillout areas/ lecture rooms:</b> No communication possible.
+				</li>
+				<li>
+					<b>Change room:</b> 
+					Use staircases and doors to get to other rooms.
+				</li>
+				<li style="margin-bottom:0.8em;">
+					<b>Walls:</b>
+					The avatar can not go through walls, walk around them.
+				</li>
+				<li class = "img">
+					<b>Mute:</b> 
+					<img src="CameraOFF.png" alt="Mute-Symbol" style="float:left; padding-right:1em;"> 
+					The mute symbol marks a place to have a rest, there are no communication possibilities.
+				</li>
+				<li class = "img">
+					<b>Jitsi:</b> 
+					<img src="CameraON.png" alt="Kamera-Symbol" style="float:left; padding-right:1em;"> 
+					The camera symbol shows Jitsi group rooms. You can get in contact with more than four persons here.
+				</li>
+				<li class = "img">
+					<b>Menu:</b>
+					<img src="Menu.png" alt="Hamurger-Menü" style="float:left; padding-right:1em;"> 
+					In the menu on the upper left several settings can be reached, e.g. you can change your name and avatar here.
+				</li>
+				<li class = "img">
+					<b>Infopoint:</b>
+					<img id = "info" src="Info.png" style="float:left; padding-right:1em;"> 
+					Here you can get university information.
+				</li>
+				</ul>
+			
+	
+				<h2>Rules</h2>
+				<ul>
+		  		<li>No insults! Behave appropriately.</li>
+		  		<li>Don't bother anyone if they refuse communication.</li>
+		  		<li>Make sure you can be seen well (If you want to be seen).</li>
+		  		<li>Make sure you can be heard well (If you want to be heard).</li>
+		  		<li>It is not allowed to make pictures of participants of conference.</li>
+	
+				<p style = "font-size: 1rem; left: 20%;">
+					<b>Browser Support:</b>
+					<img id = "browser" src="Browser.png" style = "padding-left:1em;">
+				</p>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<footer>
+
+		<div class="footer">
+			<div class="flex-container">
+				<div class="flex-item-body">
+					<div style="display:flex; justify-content : center;">
+						<div>
+					<h5 class="adressHead"> <strong>You can find us:</strong></h5> 
+						<p class="adressBody">  Prof. Dipl.-Ing. Klaus Knopper<br> Hochschule Kaiserslautern <br> Campus Zweibrücken, Fachbereich Betriebswirtschaft<br>
+							Vice President of the university with a focus on digitalization<br> 
+							✉ klaus.knopper@hs-kl.de<br>
+							☏ +49 631 3724-5220 (Office ZW), +49 6307 40 10 140 (Home Office)<br>
+							Email: <a  class="is-mail">presse(at)hs-kl(dot)de</a> <br>
+							Amerikastraße 1, Gebäude H, Raum 444, 66482 Zweibrücken, GERMANY
+						</p>
+						</div>
+					</div>
+				</div>
+				<div class="flex-item-body">
+					<div  style="display:flex; justify-content : center;">
+						<div>
+					<h5 class="adressHead"> <strong>Quick Links</strong></h5> 
+						<p > <a href="./Datenschutz.html">Privacy</a> <br> <a href="https://www.hs-kl.de/">Hochschule Kaiserlautern </a> 
+						</div>			
+					</div>
+				</div>
+				<div class="flex-item-body">
+					<div style=" display:flex; justify-content : flex-end; padding-right: 2rem;">
+					<img style="padding-top:4rem; width: 12rem ; height:6rem;"  src="./Logo.png" alt="Logo der Hochschule Kaiserslautern">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+
+</body>
+</html>
